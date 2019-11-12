@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="" method="get">
+        <table>
+            <tr>
+                <td><p>Tratamiento: *</p>
+                    <p><input type="radio" name="boton" value="1" required>Sr. <input type="radio" name="boton" value="2" required>Sra.</p>    
+                </td>
+                <td><p>Nombre: *</p>
+                    <p><input type="text" name="nombre" size="15" required ></p>
+                </td>
+                <td><p>Primer Apellido: *</p>
+                    <p><input type="text" name="apellido1" size="15" required></p>
+                </td>
+                <td><p>Segundo Apellido:</p>
+                    <p><input type="text" name="apellido2" size="15"></p>
+                </td>
+            </tr>
+            <tr>
+                <td><p>Tipo Doc: *</p>
+                    <select name="menu" required>
+                        <option value="1">DNI</option>
+                        <option value="2">NIE</option>
+                        <option value="3">NIA</option>
+                        <option value="4">SIP</option>
+                        <option value="5">Pasaporte</option>
+                    </select>
+                </td>
+                <td><p>Nº Doc: *</p>
+                    <p><input type="text" name="nºdoc" size="15"></p>
+                </td>
+                <td><p>Fecha de nacimiento:*</p>
+                    <p><input type="date" name="fecha" required></p>
+                </td>
+            </tr>
+            <tr>
+                <td><p>País de nacimiento: *</p>
+                    <select name="MenuPaises" required>
+                        <option value="1">España</option>
+                        <option value="2">Francia</option>
+                        <option value="3">Austria</option>
+                        <option value="4">Inglaterra</option>
+                        <option value="5">Irlanda</option>
+                        <option value="6">Holanda</option>
+                        <option value="7">Alemania</option>
+                        <option value="8">Andorra</option>
+                        <option value="9">Portugal</option>
+                        <option value="10">Malta</option>
+                    </select>
+                </td>
+                <td><p>Nacionalidad: *</p>
+                    <select name="MenuNacionalidades" required>
+                        <option value="1">Española</option>
+                        <option value="2">Francesa</option>
+                        <option value="3">Austriaca</option>
+                        <option value="4">Inglesa</option>
+                        <option value="5">Irlandesa</option>
+                        <option value="6">Holandesa</option>
+                        <option value="7">Alemana</option>
+                        <option value="8">Andorrana</option>
+                        <option value="9">Portuguesa</option>
+                        <option value="10">Maltesa</option>
+                    </select>
+                </td>
+                <td><p>Segunda nacionalidad:</p>
+                    <select name="MenuSegundaNacionalidad" >
+                        <option value="1">Española</option>
+                        <option value="2">Francesa</option>
+                        <option value="3">Austriaca</option>
+                        <option value="4">Inglesa</option>
+                        <option value="5">Irlandesa</option>
+                        <option value="6">Holandesa</option>
+                        <option value="7">Alemana</option>
+                        <option value="8">Andorrana</option>
+                        <option value="9">Portuguesa</option>
+                        <option value="10">Maltesa</option>
+                    </select>
+                </td>
+                <td><p>País de Residencia Fiscal: *</p>
+                    <select name="MenuResidenciaFiscal" required>
+                        <option value="1">España</option>
+                        <option value="2">Francia</option>
+                        <option value="3">Austria</option>
+                        <option value="4">Inglaterra</option>
+                        <option value="5">Irlanda</option>
+                        <option value="6">Holanda</option>
+                        <option value="7">Alemania</option>
+                        <option value="8">Andorra</option>
+                        <option value="9">Portugal</option>
+                        <option value="10">Malta</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
