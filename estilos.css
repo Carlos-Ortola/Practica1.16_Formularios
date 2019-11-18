@@ -5,6 +5,8 @@ td{
 }
 table#DatosPers{
     background-color: rgb(204, 204, 204);
+    margin-right:200px;
+    align-items: center;
 }
 form{
     margin-left: 20%;
@@ -33,4 +35,8 @@ figure{
 }
 h1#form2{
     color: orangered;
+}
+table#fin{
+    margin-left:15%
+    
 }
